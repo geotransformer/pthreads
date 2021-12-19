@@ -15,5 +15,7 @@ Thread creation (**pthread_create()**) involves allocating and initializing the 
 Thread termination (**pthread_exit(), pthread_cancel()**) involves stopping the thread and reclaiming the thread's resources. As a thread executes, its state can generally be described as either "ready" or "blocked." More specifically, it can be one of the following:
 
 
+![Thread life cycle](./references/pthread_life_cycle.jpg)
+
 ![Thread life cycle](./references/pthread_lc.jpg)
 
