@@ -49,7 +49,7 @@ int main(){
     int err;
     void *tret;
 
-    err = pthread_create(&tid1, NULL, thread_func1, "T2");
+    err = pthread_create(&tid1, NULL, thread_func1, "T1");
     if(err != 0) {
         printf("Failed to create thread 1\n");
         return 1;
