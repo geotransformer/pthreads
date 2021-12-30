@@ -19,3 +19,5 @@ Thread termination (**pthread_exit(), pthread_cancel()**) involves stopping the 
 
 ![Thread life cycle](./references/pthread_lc.jpg)
 
+## Code 
+Most code examples are from Advanced Programming in the UNIX® Environment, Third Edition (by W. Richard Stevens, Stephen A. Rago)
