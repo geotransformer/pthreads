@@ -21,3 +21,13 @@ Thread termination (**pthread_exit(), pthread_cancel()**) involves stopping the 
 
 ## Code 
 Most code examples are from Advanced Programming in the UNIX® Environment, Third Edition (by W. Richard Stevens, Stephen A. Rago)
+
+## Platform 
+vagrant@vagrant:/vagrant/pthreads$ uname -srvoi
+Linux 4.15.0-128-generic #131-Ubuntu SMP Wed Dec 9 06:57:35 UTC 2020 x86_64 GNU/Linux
+
+vagrant@vagrant:/vagrant/pthreads$ gcc --version
+gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+Copyright (C) 2017 Free Software Foundation, Inc.
+
+vagrant@vagrant:/vagrant/pthreads$ gcc -g mutex_thread.c  -pthread -ansi -pedantic -Wall
