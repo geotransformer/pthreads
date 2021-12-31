@@ -4,6 +4,9 @@
 
 The POSIX thread (pthread)libraries are a standards based thread API for C/C++. 
 
+https://man7.org/linux/man-pages/man7/pthreads.7.html
+
+
 
 ## Thread life cycle 
 [Original link](http://www.qnx.com/developers/docs/qnxcar2/index.jsp?topic=%2Fcom.qnx.doc.neutrino.sys_arch%2Ftopic%2Fkernel_Life_Cycle.html)
@@ -16,8 +19,7 @@ Thread termination (**pthread_exit(), pthread_cancel()**) involves stopping the 
 
 
 ![Thread life cycle](./references/pthread_life_cycle.jpg)
-
-![Thread life cycle](./references/pthread_lc.jpg)
+<img src="./references/pthread_lc.jpg" alt="Thread life cycle" width="250"/>
 
 ## Code 
 Most code examples are from Advanced Programming in the UNIX® Environment, Third Edition (by W. Richard Stevens, Stephen A. Rago)
